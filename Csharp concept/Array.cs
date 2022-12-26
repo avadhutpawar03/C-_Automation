@@ -11,7 +11,7 @@ using System.Threading.Tasks;
     {
        // public static object P { get; private set; }
 
-        static void Maijll()
+        static void Main()
         {
             String[] colors = new string[3];
             colors[0] = "red";
