@@ -1,6 +1,6 @@
 ﻿namespace ShoppingCartProject
 {
-    public class ShoppingCart
+    public class ShoppingCartb
     {
         static void Main(string[] args)
         {
