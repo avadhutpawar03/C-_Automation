@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Go1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Go1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Selenium.Support" Version="4.7.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="108.0.5359.7100" />
   </ItemGroup>

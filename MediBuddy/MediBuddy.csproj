@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,8 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Medi.cs" />
+    <Compile Remove="Nasscom.cs" />
+    <Compile Remove="Oracal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Medi.cs" />
+    <None Include="Oracal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Selenium.Support" Version="4.7.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="108.0.5359.7100" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <XamlAppDef Include="Nasscom.cs" />
   </ItemGroup>
 
 </Project>
